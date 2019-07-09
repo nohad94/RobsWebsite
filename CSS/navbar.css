@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(1, 56, 1);
+    background-color: rgb(3, 16, 79);
 }
 
 .navbar a{
@@ -20,7 +20,7 @@
 .navbar-header button{
     height: 50px !important;
     width: 50px !important;
-    background-color: rgb(1, 56, 1) !important;
+    background-color: rgb(3, 16, 79) !important;
     border: 0px;
 }
 
@@ -40,7 +40,7 @@
     height: 3px;
 }
 
-@media (min-width:770px){
+@media (min-width:768px){
 .navbar-toggle{
     display: none;
 }

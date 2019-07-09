@@ -42,40 +42,49 @@
 
     <div class="container" id="maincontainer">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> 
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12"> 
                 <div id="profilepicture">
-                    <img src="" alt="My profile picture">
+                    <img src="images/PP.webp" alt="My profile picture">
+                </div>
+
+                <div class="resumepage">
+                    <img src="images/resumeimage32.png" alt="Resume Image">
+                    <button type="button" id="page1">Resume Page 1</button>
+                </div>
+                
+                <div class="resumepage">
+                    <img src="images/resumeimage32.png" alt="Resume Image">
+                    <button type="button" id="page2">Resume Page 2</button>
+                </div>
+
+                <div id="resumedownload">
+                    <img src="images/downloadimage 32.png" alt="Download Image">
+                    <a href="CV/Resume.pdf" download="Robert Tadashi Resume" target="_blank">Download my resume</a>
                 </div>
 
                 <div id="biobox">
-                    <ul>
-                        <div class="skillstitle">
-                            <h1>Alma Mater</h1>
-                        </div>
-                        <li>
-                            UBC graduate from the Faculty of Applied Science in Minning Engineering.
-                        </li>
-                        <div class="skillstitle">
-                            <h1>Skills</h1>
-                        </div>
-                        <ul id="skills">
-                            <li>Industry Software | Surpac, Vulcan, MineSight, AutoCAD, MS Office.</li>
-                            <li>Mine Design.</li>
-                            <li>Cost and Resource Estimation.</li>
-                        </ul>
+                    <div class="skillstitle">
+                        <h1><img src="images/education32.png" alt="Alma Mater Picture">Alma Mater</h1>
+                    </div>
+                        <p>UBC graduate from the Faculty of Applied Science in Mining Engineering.</p>
+                    <div class="skillstitle">
+                        <h1><img src="images/skills32.png" alt="Skills">Skills</h1>
+                    </div>
+                    <ul id="skills">
+                        <li> <img src="images/skills32(2).png" alt="Skills"> Industry Software:
+                            <ul id="industryskills">
+                                <li>Surpac, Vulcan</li>
+                                <li>MineSight, AutoCAD</li>
+                                <li>MS Office</li>
+                            </ul>
+                        <li> <img src="images/skills32(2).png" alt="Skills"> Mine Design.</li>
+                        <li> <img src="images/skills32(2).png" alt="Skills"> Cost and Resource Estimation.</li>
                     </ul>
-
                 </div>
 
             </div>
 
-            <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12" id="CVContainer">
-                <div id="CVpdf">
-                    <a href="CV/Resume.pdf" download="" target="_blank"><img src="images/Downaload.png" alt="Download"></a>
-                    <button type="button" id="page1"> <img src="images/Page1.png" alt="Page 1"></button>
-                    <button type="button" id="page2"> <img src="images/Page2.png" alt="Page 2"></button>
-                </div>
-
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12" id="CVContainer">
                 <div id="CV">
                     <img src="CV/001.jpg" alt="Resume Page 1">
                 </div>
